@@ -1,8 +1,12 @@
 const number1 = 10
-const number2 = 5
+const number2 = 0
 const operation = '/'
 
 let result;
+
+if (number2 === 0){
+    console.log('So nula ne se deli')
+}
 
 if (operation == '+'){
     result = number1 + number2
